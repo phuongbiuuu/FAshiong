@@ -292,22 +292,21 @@ h5>a:hover {
 }
 
 
-.btn>button {
-    width: 375px;
-    height: 56px;
-    margin: 30px auto;
-    background-color: black;
+.btn > a {
     color: white;
-    font-size: 14px;
-    line-height: 24px;
+    background-color: #333333;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
     letter-spacing: 0.01em;
     text-transform: uppercase;
-    text-align: start;
-    border: none;
-
+    display: block;
+    width: 100%;
+    padding: 15px 0px;
+    margin-top: 20px;
 }
 
-button>i {
+a > i {
     margin-left: 20px;
     color: white;
 }
